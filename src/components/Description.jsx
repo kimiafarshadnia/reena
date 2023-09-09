@@ -36,7 +36,7 @@ const Description = () => {
 					increased sales and a competitive edge.
 				</p>
 			</div>
-			<div className='w-full text-black font-medium flex justify-center items-center p-4 md:px-12 overflow-x-auto '>
+			<div className='w-full text-black font-medium flex justify-between md:justify-center items-center p-4 md:px-12 overflow-x-auto gap-4 columns-3'>
 				<div className='bg-cyan-300 rounded-xl flex justify-center items-center  w-[300px] h-[350px]'>
 					<div className='w-full flex flex-col justify-center items-center p-5'>
 						<div className='flex shrink-0 flex-col justify-center items-center w-2/4 min-[450px]:w-full  sm:w-2/4'>
@@ -63,7 +63,7 @@ const Description = () => {
 					</div>
 				</div>
 
-				<div className='bg-indigo-300 rounded-xl flex justify-center items-center  w-[300px] h-[350px] mx-8'>
+				<div className='bg-indigo-300 rounded-xl flex justify-center items-center  w-[300px] h-[350px]'>
 					<div className='flex flex-col items-center justify-around h-full -ml-3'>
 						<span className='bg-neutral-900 w-8  rounded-full h-3'></span>
 						<span className='bg-neutral-900 w-8 my-3 rounded-full h-3'></span>
